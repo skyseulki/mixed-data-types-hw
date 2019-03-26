@@ -89,3 +89,25 @@ crazyObject.larry.characters[2].favourtieHobby;
 crazyObject.larry["nicknames"][1];
 // The object the contains the name funkhauser
 crazyObject.larry.characters[1].name;
+
+
+// 4 Object-ception
+const inception = {
+    reality: {
+        dreamLayer1: {
+            dreamLayer2: {
+                dreamLayer3: {
+                    dreamLayer4: {
+                        dreamLayer5: {
+                            dreamLayer6: {
+                                limbo: "Joseph Gordon Levitt"
+                           }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// change "Joseph Gordon Levitt" to 'null'
+inception.reality.dreamLayer1.dreamLayer2.dreamLayer3.dreamLayer4.dreamLayer5.dreamLayer6.limbo = null;
